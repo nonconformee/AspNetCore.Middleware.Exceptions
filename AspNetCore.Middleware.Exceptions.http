@@ -1,0 +1,6 @@
+@AspNetCore.Middleware.Exceptions_HostAddress = https://localhost:5071
+
+GET {{AspNetCore.Middleware.Exceptions_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
