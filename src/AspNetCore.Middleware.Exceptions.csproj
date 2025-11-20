@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    
+    <!-- Versioning -->
+    <Version>0.0.0-dev</Version>
+    <AssemblyVersion>0.0.0</AssemblyVersion>
+
+    <!-- API Surface -->
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>Library</OutputType>
+
+    <!-- C# and Compilation -->
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>nonconformee.AspNetCore.Middleware</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <WarningsAsErrors>true</WarningsAsErrors>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    
+    <!-- Output -->
+    <AssemblyName>nonconformee.AspNetCore.Middleware.Exceptions</AssemblyName>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <Deterministic>true</Deterministic>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+
+    <!-- Documentation -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- Packaging -->
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>nonconformee</Authors> 
+    <Description><!-- [TBD] --></Description>
+    <PackageTags><!-- [TBD] --></PackageTags>
+    <PackageReadmeFile>../README.md</PackageReadmeFile>
+    <PackageIcon>../assets/icon.png</PackageIcon>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/nonconformee/AspNetCore.Middleware.Exceptions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nonconformee/AspNetCore.Middleware.Exceptions</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <IncludeSymbols>true</IncludeSymbols>
+    <IncludeSource>true</IncludeSource>
+    
+  </PropertyGroup>
+
+</Project>
